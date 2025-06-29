@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSCS سٹوڈنٹس ہیلپ پورٹل</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="لوگو" width="50">
+        <h1>BSCS سٹوڈنٹس ہیلپ پورٹل</h1>
+        <nav>
+            <a href="#home">ہوم</a>
+            <a href="#lectures">لیکچرز</a>
+            <a href="#coding">کوڈنگ</a>
+            <a href="#papers">پاسٹ پیپرز</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>خوش آمدید!</h2>
+            <p>یہ پورٹل BSCS کے طلباء کے لیے مفید وسائل فراہم کرتا ہے۔</p>
+        </section>
+
+        <section id="lectures">
+            <h2>لیکچر نوٹس</h2>
+            <div class="lecture-box">
+                <h3>پروگرامنگ فنڈامینٹلز</h3>
+                <a href="lectures/prog-fundamentals.pdf" download>PDF ڈاؤنلوڈ</a>
+            </div>
+            <div class="lecture-box">
+                <h3>ڈیٹا ڈھانچے</h3>
+                <a href="lectures/data-structures.pdf" download>PDF ڈاؤنلوڈ</a>
+            </div>
+        </section>
+
+        <section id="coding">
+            <h2>کوڈنگ مثالوں</h2>
+            <div class="code-example">
+                <h3>Python: Fibonacci Series</h3>
+                <pre><code>def fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        print(a, end=' ')
+        a, b = b, a+b
+fibonacci(10)</code></pre>
+            </div>
+            <div class="code-example">
+                <h3>Java: Hello World</h3>
+                <pre><code>public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello BSCS Students!");
+    }
+}</code></pre>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 BSCS Help Portal | تمام حقوق محفوظ ہیں</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
